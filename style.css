@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.content{
+    /* display: grid;
+    grid-template-areas: "profilePic"
+                         "About"
+                         "GitHub"
+                         "Linkedin"
+                         "X"
+                         "Instagram"; */
+    width: 346px;
+    height: 460px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 0px solid rgba(48, 45, 45, 0.397);
+    background-color: rgba(48, 45, 45, 0.397);
+    border-radius: 10px;
+}
+.profilePic{
+    grid-area: profilePic;
+    border-radius: 50%;
+    width: 100px;
+    position: relative;
+    left: 35%;
+    top:15px;
+}
+.About{
+    width: 346px;
+    height: 460px;
+}
+.name,.address{
+    position: relative;
+    left: 40%;
+    top:15px;
+}
+.role{
+    position: relative;
+    top:15px;
+    left: 30%;
+    
+}
+.name,.role{
+    color: white;
+}
+.address{
+    color: greenyellow;
+}
+button{
+    background-color: rgba(39, 35, 35, 0.377);
+    color: bisque;
+    border: 0px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+    top:10px;
+}
+
+button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.Linkedin{
+    position: relative;
+    
+    top:10px;
+}
+.X{
+    position: relative;
+    
+    top:20px;
+}
+.Instagram{
+    position: relative;
+    
+    top:30px;
+}
